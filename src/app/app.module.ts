@@ -1,16 +1,16 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MyComponentWrapperComponent } from 'src/components/ReactComponents/MyReactComponentWrapper';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MyComponentWrapperComponent,
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
