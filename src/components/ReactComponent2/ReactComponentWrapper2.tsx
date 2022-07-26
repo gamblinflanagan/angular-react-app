@@ -42,9 +42,7 @@ import {
     private render() {
       ReactDOM.render(
         <React.StrictMode>
-          <div>
-              <ReactComponent2 />
-          </div>
+          <ReactComponent2 />
         </React.StrictMode>
         , this.containerRef.nativeElement);
     }

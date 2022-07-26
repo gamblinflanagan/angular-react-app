@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public counter = 21;
+  public counter = 0;
 
   public handleOnClick(stateCounter: number) {
     this.counter++;
