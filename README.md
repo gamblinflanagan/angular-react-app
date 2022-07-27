@@ -28,6 +28,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Sources/Credit for `ReactComponent1` and `app` folders 
 
-https://thalava.com/how-to-use-react-web-components-in-angular
-https://github.com/zackypick/react-in-angular
-https://www.youtube.com/watch?v=95VZBqWljsw
+https://thalava.com/how-to-use-react-web-components-in-angular <br />
+https://github.com/zackypick/react-in-angular <br />
+https://www.youtube.com/watch?v=95VZBqWljsw <br />
