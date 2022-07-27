@@ -11,8 +11,7 @@ import {
     ViewChild,
     ViewEncapsulation
   } from '@angular/core';
-  declare module './ReactComponent2Main';
-  import { ReactComponent2Main } from './ReactComponent2Main.jsx';
+  import { ReactComponent2 } from './ReactComponent2.jsx';
   
   import * as React from 'react';
   import * as ReactDOM from 'react-dom';
@@ -43,7 +42,7 @@ import {
     private render() {
       ReactDOM.render(
         <React.StrictMode>
-          <ReactComponent2Main />
+          <ReactComponent2 />
         </React.StrictMode>
         , this.containerRef.nativeElement);
     }

@@ -1,25 +1,15 @@
 import * as React from 'react';
-import { useState, useRef } from 'react';
 
-import Test from "./NestedComponent.jsx";
+import InputType1 from "./InputType1.jsx";
+import InputType2 from "./InputType2.jsx";
 
-
-const ReactComponent2 = () => {
-
-  const [label, setLabel] = useState("default");
-  
-  function Change(event) {
-    setLabel(event.target.value);
-  }
+export const ReactComponent2 = () => {
 
   return (
-    <div className='main'>
-      <h1>{label}</h1>
-      <input id={"in"} placeholder={"input"} onChange={Change} value={label}></input>
+    <div>
+      <InputType1 />
       <br />
-      <Test />
+      <InputType2 />
     </div>
   )
 };
-
-export default ReactComponent2;
