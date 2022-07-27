@@ -2,6 +2,8 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "allowJs": true,
+    "checkJs": false,
     "jsx": "react",
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
@@ -20,8 +22,12 @@
     "target": "es2020",
     "module": "es2020",
     "lib": [
+      "DOM",
       "es2020",
-      "dom"
+      "dom",
+      "DOM.Iterable",
+      "ScriptHost",
+      "ES2016.Array.Include"
     ]
   },
   "angularCompilerOptions": {
