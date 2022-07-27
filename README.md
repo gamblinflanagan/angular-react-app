@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Getting Started
 
-In a terminal run the command `npm i -g @angular/cli` if there are permission erros run `sudo npm i -g @angular/cli`
+In a terminal run the command `npm i -g @angular/cli` if there are permission erros run `sudo npm i -g @angular/cli` <br />
 In a terminal run the command `npm install`
 
 ## Development server
