@@ -14,7 +14,8 @@ import {
   import { ReactComponent2 } from './ReactComponent2.jsx';
   
   import * as React from 'react';
-  import * as ReactDOM from 'react-dom';
+  //import * as ReactDOM from 'react-dom';
+  import * as ReactDOMCli from 'react-dom/client';
   
   const containerElementName = 'ReactComponentContainer2';
   
@@ -24,9 +25,10 @@ import {
     styleUrls: ['./ReactComponent2.scss'],
     encapsulation: ViewEncapsulation.None,
   })
+
   export class ReactComponentWrapper2 implements OnChanges, OnDestroy, AfterViewInit {
-    @ViewChild(containerElementName, {static: true}) containerRef!: ElementRef;
-  
+    @ViewChild(containerElementName) child!: ElementRef;
+
     ngOnChanges(changes: SimpleChanges): void {
       this.render();
     }
@@ -36,14 +38,19 @@ import {
     }
   
     ngOnDestroy() {
-      ReactDOM.unmountComponentAtNode(this.containerRef.nativeElement);
+      // ReactDOM.unmountComponentAtNode(this.child.nativeElement);
+      const root = ReactDOMCli.createRoot(this.child.nativeElement);
+      root.unmount();
     }
   
     private render() {
-      ReactDOM.render(
+      const root = ReactDOMCli.createRoot(this.child.nativeElement);
+      root.render(
+      // ReactDOM.render(
         <React.StrictMode>
           <ReactComponent2 />
         </React.StrictMode>
-        , this.containerRef.nativeElement);
+        // ,this.child.nativeElement
+      );
     }
   }

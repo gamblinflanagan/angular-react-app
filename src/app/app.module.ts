@@ -1,8 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MyComponentWrapperComponent } from 'src/components/ReactComponent1/MyReactComponentWrapper';
+import { ReactWrapperComponent1 } from 'src/components/ReactComponent1/ReactComponentWrapper1';
 import { ReactComponentWrapper2 } from 'src/components/ReactComponent2/ReactComponentWrapper2';
 
 
@@ -10,11 +11,12 @@ import { ReactComponentWrapper2 } from 'src/components/ReactComponent2/ReactComp
 @NgModule({
   declarations: [
     AppComponent,
-    MyComponentWrapperComponent,
+    ReactWrapperComponent1,
     ReactComponentWrapper2,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
