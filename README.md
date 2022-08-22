@@ -36,3 +36,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 https://thalava.com/how-to-use-react-web-components-in-angular <br />
 https://github.com/zackypick/react-in-angular <br />
 https://www.youtube.com/watch?v=95VZBqWljsw <br />
+https://github.com/techiediaries/angular-web-component-demo <br />
