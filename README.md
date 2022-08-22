@@ -17,7 +17,13 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build --output-hashing none` to build the project. The build artifacts will be stored in the `dist/` directory. Copy and replace if needed the js files from the `dist/` directory to the `public/` directory.
+If React is not built run `npm run build`
+
+## Run Prod Build
+
+In the `public/` directory run `serve`. to install run `npm install -g serve`
+
 
 ## Running unit tests
 
