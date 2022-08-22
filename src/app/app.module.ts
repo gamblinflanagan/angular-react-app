@@ -29,7 +29,7 @@ import { ReactComponentWrapper2 } from 'src/components/ReactComponent2/ReactComp
 export class AppModule {
 
   constructor(private injector: Injector) {
-    const el = createCustomElement(AppComponent, { injector });
-    customElements.define('app-react', el);
+    const elem = createCustomElement(AppComponent, { injector });
+    customElements.define('app-react', elem);
   }
 }
