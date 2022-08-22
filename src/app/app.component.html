@@ -1,10 +1,6 @@
 <div class="embedded-showcase">
     <h1>React embedded in Angular</h1>
-    <div>
-      <app-my-component2></app-my-component2>
-    </div>
+    <app-my-component2></app-my-component2>
     <br />
-    <div class="my-component-wrapper">
-      <app-my-component [aCounter]="counter" (componentClick)="handleOnClick($event)"></app-my-component>
-    </div>
+    <app-my-component [aCounter]="counter" (componentClick)="handleOnClick($event)"></app-my-component>
 </div>

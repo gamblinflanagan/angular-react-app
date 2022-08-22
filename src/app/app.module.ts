@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { ReactWrapperComponent1 } from 'src/components/ReactComponent1/ReactComponentWrapper1';
 import { ReactComponentWrapper2 } from 'src/components/ReactComponent2/ReactComponentWrapper2';
 

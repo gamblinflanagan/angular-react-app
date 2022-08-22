@@ -2,6 +2,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
     "allowJs": true,
     "checkJs": false,
     "jsx": "react",

@@ -1,7 +1,16 @@
 .main {
-    color: blue;
+    color: red;
 }
 
 .secondary {
-    color: red;
+    color: blue;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+}
+
+#submit {
+    margin-left: 0;
 }
