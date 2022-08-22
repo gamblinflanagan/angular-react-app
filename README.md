@@ -22,7 +22,7 @@ If React is not built run `npm run build`
 
 ## Run Prod Build
 
-In the `public/` directory run `serve`. to install run `npm install -g serve`
+In the `public/` directory. run `serve`. to install run `npm install -g serve`.  Navigate to `http://localhost:5000/`.
 
 
 ## Running unit tests
