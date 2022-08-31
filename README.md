@@ -20,6 +20,9 @@ Run `ng generate component component-name` to generate a new component. You can 
 Run `ng build --output-hashing none` to build the project. The build artifacts will be stored in the `dist/` directory. Copy and replace if needed the js files from the `dist/` directory to the `public/` directory.
 If React is not built run `npm run build`
 
+### Important
+search for `app-root` in main.js file and change it to the name of your component in the app.module.ts file: `customElements.define('<your-componet-name>', elem);`
+
 ## Run Prod Build
 
 In the `public/` directory. run `serve`. to install run `npm install -g serve`.  Navigate to `http://localhost:5000/`.
