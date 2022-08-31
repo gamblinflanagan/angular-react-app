@@ -21,7 +21,7 @@ Run `ng build --output-hashing none` to build the project. The build artifacts w
 If React is not built run `npm run build`
 
 ### Important
-search for `app-root` in main.js file and change it to the name of your component in the app.module.ts file: `customElements.define('<your-componet-name>', elem);`
+search for `app-root` in main.js file and change it to the name of your component in the app.module.ts file: `customElements.define('<your-component-name>', elem);`
 
 ## Run Prod Build
 
